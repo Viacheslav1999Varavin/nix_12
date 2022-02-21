@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>hm_1_complication</module>
+
     </modules>
 
     <properties>
