@@ -1,11 +1,11 @@
-package task_3;
+package area;
 
 /*3.Даны точки A,B,C на плоскости. Вычислить площадь треугольника ABC.*/
 
 import java.util.Scanner;
 
-public class Task_3 {
-    public void runTask3() {
+public class Area {
+    public void runArea() {
         System.out.println("Пожалуйста, введите координаты вершин треугольника (Ax,Ay;Bx,By;Cx,Cy) :");
         Scanner scanner = new Scanner(System.in);
         int[] array = new int[6];

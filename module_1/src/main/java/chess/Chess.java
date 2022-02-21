@@ -1,4 +1,4 @@
-package task_2;
+package chess;
 
 /*2.Ход коня по бесконечной шахматной доске. Вводится текущее положение
 коня и клетка в которую пробуют его передвинуть за 1 ход. Программа должна
@@ -9,8 +9,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 
-public class Task_2 {
-    public void runTask2() throws IOException {
+public class Chess {
+    public void runChess() throws IOException {
 
         char[] charArraySymb = new char[]{' ',' ','A',' ','B',' ','C',' ','D',' ','E',' ','F',' ','G',' ','H'};
         char[] charArray8 = new char[]{'8',' ','0',' ','#',' ','0',' ','#',' ','0',' ','#',' ','0',' ','#'};

@@ -1,4 +1,4 @@
-package task_4;
+package check;
 
 /*4.Учитывая строку, содержащую символы '(', ')', '{', '}', '[' и ']', определите,
 является ли входная строка допустимой.
@@ -10,8 +10,8 @@ package task_4;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Task_4 {
-    public void runTask4() {
+public class Check {
+    public void runCheck() {
         System.out.println("Пожалуйста, введите строку для проверки: ");
         Scanner scan = new Scanner(System.in);
         int res;

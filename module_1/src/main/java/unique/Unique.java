@@ -1,4 +1,4 @@
-package task_1;
+package unique;
 
 /* 1.Дан массив чисел. Вернуть число уникальных символов
 Пример: для 1 4 5 1 1 3 ответ 4.*/
@@ -7,9 +7,9 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Task_1 {
+public class Unique {
 
-    public void runTask1() throws IOException {
+    public void runUnique() throws IOException {
         System.out.println("Можете ввести символы");
         BufferedReader line = new BufferedReader(new InputStreamReader(System.in));
 
