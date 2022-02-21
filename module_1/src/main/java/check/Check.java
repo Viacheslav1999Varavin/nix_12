@@ -27,9 +27,8 @@ public class Check {
                 switch (str.charAt(i)) {
                     case '(':
                     case '[':
-                    case '{':
-                        stack.push(str.charAt(i));
-                        break;
+                    case '{': stack.push(str.charAt(i));
+                    break;
                     case ')':
                         if ((stack.peek() != '(') || stack.empty()) {
                             stat = false;
@@ -56,7 +55,6 @@ public class Check {
             }
             stack.pop();
             if (!stack.empty()) res = 0;
-
             if (res == 0){
                 System.out.println("Код введён верно");
             }else {

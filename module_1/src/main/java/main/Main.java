@@ -30,7 +30,5 @@ public class Main {
             if (chars[0] == '4') {
                 new Check().runCheck();
             }
-
-
 }
 }

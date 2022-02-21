@@ -15,19 +15,13 @@ public class Unique {
 
         String str = line.readLine();
         char[] chars = str.toCharArray();
-
-
         List<Integer> myList = new ArrayList<>();
 
         for (int x : chars) {
             if (!myList.contains(x))
                 myList.add(x);
         }
-
         System.out.println("Число уникальных символов" + " " + myList.size());
-
     }
-
-
     }
 
